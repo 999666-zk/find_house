@@ -7,11 +7,228 @@
         content="width=device-width, initial-scale=1.0,viewport-fit=cover,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/regist.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script type="text/javascript"
+        src="https://api.map.baidu.com/api?v=1.0&type=webgl&ak=wHp6BHlglRH8vMQADwit8ygVx2YPuSCf">
+    </script>
     <title></title>
 </head>
 
 <body>
+    <!-- header部分-->
+    <header>
+        <div class="box">
+            <div class="left_logo">
+                <img src="./image/index/logo.jpg" alt="">
+            </div>
+            <div class="right_img">
+                <div class="my"><img src="./image/index/my.jpg" alt=""></div>
+                <div class="app"><img src="./image/index/xiazai.jpg" alt=""></div>
+            </div>
+        </div>
+    </header>
+    <script src="./js/swiper-bundle.min.js"></script>
 
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./image/rentalList/img1.png" alt=""></div>
+            <div class="swiper-slide"><img src="./image/rentalList/img2.png" alt=""></div>
+            <div class="swiper-slide"><img src="./image/rentalList/img3.png" alt=""></div>
+            <div class="swiper-slide"><img src="./image/rentalList/img4.png" alt=""></div>
+            <div class="swiper-slide"><img src="./image/rentalList/img5.png" alt=""></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+    <!-- 介绍 -->
+    <div class="content">
+        <div class="con_box">
+            <div class="title">
+                <h2>
+                    天鹅湖小区精装两居，满五唯一，<br>
+                    业主换房急售</h2>
+            </div>
+            <div class="middle_text">
+                <div class="left_text"><span style="color: #db4c3f;">576</span>万元（单价：46327元/平）</div>
+                <div class="imgs_phone"><img src="./image/SecondHandList/phone.png" alt=""></div>
+            </div>
+            <div class="times">挂牌时间<span>2015年6月20日</span></div>
+            <div class="tags">
+                <div class="tag1 t"><a href="#">学区房</a></div>
+                <div class="tag2 t"><a href="#">独家</a></div>
+                <div class="tag3 t"><a href="#">满五唯一</a></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 更多房源 -->
+    <div class="con_fangyuan_text">
+        <div class="inner_fang_text">
+            <div class="fang_msg">
+                <div class="msg_box">户型:<span>3室2厅</span></div>
+                <div class="msg_box">面积:<span>100平</span></div>
+            </div>
+            <div class="fang_msg">
+                <div class="msg_box">楼层:<span>中楼层</span></div>
+                <div class="msg_box">朝向:<span>向西</span></div>
+            </div>
+            <div class="fang_msg">
+                <div class="msg_box">户型:<span>3室2厅</span></div>
+                <div class="msg_box">面积:<span>100平</span></div>
+            </div>
+            <div class="fang_msg">
+                <div class="msg_box">户型:<span>3室2厅</span></div>
+                <div class="msg_box">面积:<span>100平</span></div>
+            </div>
+            <div class="fang_msg">
+                <div class="msg_box">户型:<span>3室2厅</span></div>
+                <div class="msg_box">面积:<span>100平</span></div>
+            </div>
+            <div class="fang_msg">
+                <div class="msg_box one_msg">户型:<span>3室2厅</span></div>
+            </div>
+            <div class="fang_msg">
+                <div class="msg_box one_msg">户型:<span>3室2厅</span></div>
+            </div>
+            <div class="fang_msg">
+                <div class="msg_box one_msg">户型:<span>3室2厅</span></div>
+            </div>
+            <div class="fang_msg">
+                <div class="one_msg last"><a href="#">更多房源信息</a></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- 房源特色 -->
+    <div class="con_fangyuan_text">
+        <div class="inner_fang_text">
+            <div class="fang_msg">
+                <div class="msg_box one_msg" style="font-size: .2rem;">房源特色</div>
+            </div>
+            <div class="fang_msg">
+                <div class="msg_box one_msg" id="just_con_text">
+                    户型:3室2厅户型:3室2厅户型:3室2厅户型:3室2厅户型:
+                    户型:3室2厅户型:3室2厅户型:3室2厅户型:3室2厅户型:
+                    户型:3室2厅户型:3室2厅户型:3室2厅户型:3室2厅户型:
+                    户型:3室2厅户型:3室2厅户型:3室2厅户型:3室2厅户型:
+                </div>
+            </div>
+            <div class="fang_msg">
+                <div class="one_msg last"><a href="#">更多房源特色</a></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 房源分间 -->
+    <div class="box_out_sp">
+        <div class="inner_box_sp">
+            <div class="title_box">
+                <a href="#">房源分间</a>
+            </div>
+            <div class="will_big_huxing">
+
+
+                <div class="huxing_left_img">
+                    <img src="./image/SecondHandList/img1.png" alt="">
+                </div>
+
+
+                <div class="huxing_right_box">
+                    <div class="huxing_top_text">当前格局</div>
+                    <div class="huxing_middle_text">
+                        分间信息:<span>客厅25平方米南北通透</span>
+                    </div>
+                    <div class="tags">
+                        <div class="t rig">南北通透</div>
+                        <div class="t">全明格局</div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="will_big_huxing">
+
+
+                <div class="huxing_left_img">
+                    <img src="./image/SecondHandList/img1.png" alt="">
+                </div>
+
+
+                <div class="huxing_right_box">
+                    <div class="huxing_top_text">当前格局</div>
+                    <div class="huxing_middle_text">
+                        分间信息:<span>客厅25平方米南北通透</span>
+                    </div>
+                    <div class="tags">
+                        <div class="t rig">南北通透</div>
+                        <div class="t">全明格局</div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- 对口学校 -->
+    <div class="con_fangyuan_text">
+        <div class="inner_fang_text">
+            <div class="fang_msg">
+                <div class="msg_box one_msg" style="font-size: .2rem;">对口学校</div>
+            </div>
+            <div class="fang_msg">
+                <div class="msg_box one_msg">户型:<span>3室2厅</span></div>
+            </div>
+            <div class="fang_msg">
+                <div class="msg_box one_msg">户型:<span>3室2厅</span></div>
+            </div>
+            <div class="fang_msg">
+                <div class="msg_box one_msg">户型:<span>3室2厅</span></div>
+            </div>
+            <div class="fang_msg">
+                <div class="msg_box one_msg">户型:<span>3室2厅</span></div>
+            </div>
+            <div class="fang_msg">
+                <div class="msg_box one_msg">户型:<span>3室2厅</span></div>
+            </div>
+            <div class="fang_msg">
+                <div class="one_msg last"><a href="#">更多学校详情</a></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- 位置及周边 -->
+    <div class="con_fangyuan_text">
+        <div class="inner_fang_text">
+            <div class="fang_msg">
+                <div class="msg_box one_msg" style="font-size: .2rem;">位置及周边</div>
+            </div>
+            <div id="container"></div>
+
+        </div>
+    </div>
+    <script src="./js/lunbo_to_index.js"></script>
+    <script type="text/javascript">
+        var map = new BMapGL.Map("container");
+        // 创建地图实例 
+        var point = new BMapGL.Point(113.6872, 34.810342);
+        // 创建点坐标 
+        map.centerAndZoom(point, 15);
+        // 初始化地图，设置中心点坐标和地图级别 
+    </script>
 </body>
 
 </html>
