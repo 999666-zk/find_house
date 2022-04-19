@@ -228,7 +228,7 @@
 
 
     <!-- 推荐房源 -->
-    <div class="box_out_sp">
+    <div class="box_out_sp" id="find_box">
         <div class="inner_box_sp">
             <div class="title_box">
                 <a href="#" style="font-size: .2rem;color: black;">房源分间</a>
@@ -425,7 +425,7 @@
         </div>
     </footer>
     <!-- 联系人 -->
-    <div class="tel_people">
+    <div class="tel_people" style="display: none;">
         <div class="inner_tel_pel">
             <div class="tt_box">
                 <a href="">
@@ -442,6 +442,7 @@
     </div>
 
     <script src="./js/lunbo_to_index.js"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript">
         var map = new BMapGL.Map("container");
         // 创建地图实例 
@@ -449,6 +450,20 @@
         // 创建点坐标 
         map.centerAndZoom(point, 15);
         // 初始化地图，设置中心点坐标和地图级别 
+    </script>
+
+    <script>
+        var tel_people = document.getElementsByClassName('tel_people')[0];
+        window.onscroll = function () {
+            if (document.documentElement.scrollTop >= 1600) {
+                // tel_people.style.display = "block";
+                $('.tel_people').fadeIn('slow');
+            }
+            if (document.documentElement.scrollTop < 800) {
+                // tel_people.style.display = "none";
+                $('.tel_people').fadeOut('slow');
+            }
+        };
     </script>
 </body>
 

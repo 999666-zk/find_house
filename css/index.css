@@ -181,7 +181,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 2.41rem;
 }
 
 .box_out_sp .inner_box_sp {
@@ -371,7 +370,7 @@ footer {
   background-color: #2f3130;
   padding-bottom: .2rem;
   position: fixed;
-  bottom: .61rem;
+  bottom: 0;
   z-index: 9999;
 }
 
@@ -521,4 +520,8 @@ footer .out_foot_box .foot_imgs .foot_img .fot span {
 
 .tel_people .inner_tel_pel .tt_box .tex_pel {
   margin-left: .1rem;
+}
+
+#find_box {
+  padding-bottom: 1.8rem;
 }
