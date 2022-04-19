@@ -3,7 +3,7 @@ window.onload = function () {
   var timer_yan = null;
   var flag = true;
   var num = 60;
-  send_yan.addEventListener("click", function () {
+  send_yan.addEventListener("touchstart", function () {
     if (flag) {
       timer_yan = setInterval(function () {
         flag = false;
