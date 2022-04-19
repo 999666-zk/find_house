@@ -9,6 +9,7 @@ body {
 .swiper {
   width: 100vw;
   height: 1.85rem;
+  margin-top: .42rem;
 }
 
 .swiper img {
@@ -170,7 +171,9 @@ body {
 .box_out_sp {
   margin-top: .2rem;
   width: 100vw;
-  height: 3rem;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -178,6 +181,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-bottom: 2.41rem;
 }
 
 .box_out_sp .inner_box_sp {
@@ -208,16 +212,51 @@ body {
 }
 
 .box_out_sp .inner_box_sp .will_big_huxing .huxing_left_img img {
-  width: .8rem;
+  width: 0.9rem;
+}
+
+.box_out_sp .inner_box_sp .will_big_huxing .huxing_left_img .im {
+  width: 1rem;
+}
+
+.box_out_sp .inner_box_sp .will_big_huxing .huxing_right_box {
+  width: 2.1rem;
 }
 
 .box_out_sp .inner_box_sp .will_big_huxing .huxing_right_box .huxing_top_text {
   font-size: .16rem;
 }
 
+.box_out_sp .inner_box_sp .will_big_huxing .huxing_right_box #tuijian_title {
+  color: black;
+}
+
 .box_out_sp .inner_box_sp .will_big_huxing .huxing_right_box .huxing_middle_text {
   margin-top: .08rem;
   font-size: .12rem;
+}
+
+.box_out_sp .inner_box_sp .will_big_huxing .huxing_right_box .huxing_middle_text .fangyuan_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.box_out_sp .inner_box_sp .will_big_huxing .huxing_right_box .huxing_middle_text .fangyuan_inner div {
+  line-height: .2rem;
+}
+
+.box_out_sp .inner_box_sp .will_big_huxing .huxing_right_box .huxing_middle_text .fangyuan_inner .money {
+  color: orange;
+  font-size: .14rem;
+}
+
+.box_out_sp .inner_box_sp .will_big_huxing .huxing_right_box .huxing_middle_text .fangyuan_inner:first-child {
+  color: black;
+  font-size: .14rem;
 }
 
 .box_out_sp .inner_box_sp .will_big_huxing .huxing_right_box .tags {
@@ -240,6 +279,31 @@ body {
   margin-left: 0;
 }
 
+.box_out_sp .inner_box_sp .want_say {
+  width: 108%;
+  height: .36rem;
+  background-color: whitesmoke;
+  position: relative;
+  margin-top: -0.1rem;
+}
+
+.box_out_sp .inner_box_sp .want_say .san_jiao {
+  width: 0px;
+  height: 0px;
+  border: .14rem solid;
+  border-top: none;
+  position: absolute;
+  border-color: whitesmoke transparent;
+  top: -40%;
+  left: 6%;
+}
+
+.box_out_sp .inner_box_sp .want_say span {
+  color: black;
+  line-height: .36rem;
+  margin-left: .1rem;
+}
+
 .box_out_sp .inner_box_sp .will_big_huxing:last-child {
   border-bottom: none;
   margin-bottom: .2rem;
@@ -256,7 +320,205 @@ body {
 }
 
 #container {
-  margin-top: 20px;
+  margin-top: .2rem;
+  margin-bottom: .2rem;
   width: 100%;
-  height: 200px;
+  height: 2rem;
+}
+
+.fang_msg {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.fang_msg .one_msg {
+  font-size: .14rem;
+  color: black;
+  width: 100%;
+  line-height: .5rem;
+}
+
+.fang_msg .last {
+  font-size: .14rem;
+  color: black;
+  width: 100%;
+  text-align: center;
+  line-height: .5rem;
+}
+
+.fang_msg .last a {
+  color: #cad5d6;
+}
+
+footer {
+  width: 100vw;
+  height: 1.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2f3130;
+  padding-bottom: .2rem;
+  position: fixed;
+  bottom: .61rem;
+  z-index: 9999;
+}
+
+footer .out_foot_box {
+  width: 90vw;
+  height: 100%;
+  background-color: #2f3130;
+}
+
+footer .out_foot_box .fo_text {
+  margin-top: .2rem;
+}
+
+footer .out_foot_box .fo_text p {
+  line-height: .16rem;
+  color: #8b8d8e;
+  font-size: .12rem;
+  text-align: center;
+  letter-spacing: .01rem;
+}
+
+footer .out_foot_box .foot_top_text {
+  font-size: .16rem;
+  line-height: .5rem;
+  color: #8b8d8e;
+  border-bottom: 1px solid #393b3a;
+}
+
+footer .out_foot_box .foot_imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+footer .out_foot_box .foot_imgs .foot_img {
+  margin-top: .2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+}
+
+footer .out_foot_box .foot_imgs .foot_img div img {
+  width: .3rem;
+}
+
+footer .out_foot_box .foot_imgs .foot_img .fot {
+  margin-left: .1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .out_foot_box .foot_imgs .foot_img .fot span {
+  color: #8b8d8e;
+  font-size: .12rem;
+}
+
+.tel_people {
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  height: .6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid #bbbbc8;
+  z-index: 10000;
+}
+
+.tel_people .inner_tel_pel {
+  width: 90vw;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.tel_people .inner_tel_pel .tt_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tel_people .inner_tel_pel .tt_box div {
+  font-size: .15rem;
+  color: black;
+}
+
+.tel_people .inner_tel_pel .tt_box div img {
+  width: .25rem;
+}
+
+.tel_people .inner_tel_pel .tt_box a {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .08rem .5rem;
+  border-radius: .04rem;
+  background-color: #ff8a00;
+  font-size: .16rem;
+}
+
+.tel_people .inner_tel_pel .tt_box a div {
+  color: white;
+}
+
+.tel_people .inner_tel_pel .tt_box .tex_pel {
+  margin-left: .1rem;
 }

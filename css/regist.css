@@ -10,10 +10,13 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #ff8a00;
+  position: fixed;
+  top: 0px;
+  z-index: 9999;
 }
 
 header .box {
-  width: 90vw;
+  width: 100vw;
   height: .42rem;
   background-color: #ff8a00;
   display: -webkit-box;
@@ -68,6 +71,7 @@ header .box .right_img img {
 }
 
 .inner {
+  margin-top: .42rem;
   width: 100vw;
   height: 1.7rem;
   display: -webkit-box;
