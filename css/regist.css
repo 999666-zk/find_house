@@ -7,8 +7,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: #ff8a00;
   position: fixed;
   top: 0px;
@@ -17,14 +17,14 @@ header {
 
 header .box {
   width: 100vw;
-  height: .42rem;
+  height: 0.42rem;
   background-color: #ff8a00;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 header .box .left_logo {
@@ -34,11 +34,11 @@ header .box .left_logo {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 header .box .left_logo img {
@@ -54,99 +54,83 @@ header .box .right_img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 header .box .right_img .my,
 header .box .right_img .app {
-  margin: 0 .1rem;
+  margin: 0 0.1rem;
 }
 
 header .box .right_img img {
-  height: .3rem;
+  height: 0.3rem;
 }
 
-.inner {
-  margin-top: .42rem;
-  width: 100vw;
-  height: 1.7rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.inner input {
-  height: .3rem;
+input {
+  height: 0.3rem;
   outline: none;
   border: none;
 }
 
-.inner .under_li {
-  height: .43rem;
+.under_li {
+  height: 0.43rem;
   border-bottom: 1px solid #dcdcdc;
 }
 
-.inner .under_li:first {
-  height: .37rem;
+.under_li:first {
+  height: 0.37rem;
   border-bottom: 1px solid #dcdcdc;
 }
 
-.inner .sp {
+.sp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-.inner .sp input {
-  margin-left: .15rem;
+.sp input {
+  margin-left: 0.15rem;
 }
 
-.inner .sp span {
-  margin-left: .15rem;
+.sp span {
+  margin-left: 0.15rem;
 }
 
-.inner .phone {
+.phone {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-.inner .phone .input_num {
-  margin-left: .15rem;
+.phone .input_num {
+  margin-left: 0.15rem;
 }
 
-.inner .phone .send_yan {
-  width: .8rem;
-  height: .32rem;
-  font-size: .12rem;
+.phone .send_yan {
+  width: 0.8rem;
+  height: 0.32rem;
+  font-size: 0.12rem;
   color: #666666;
   border: 1px solid #dcdcdc;
   background-color: white;
-  margin-right: .15rem;
+  margin-right: 0.15rem;
 }
 
 .btn_out {
@@ -154,21 +138,21 @@ header .box .right_img img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: .16rem;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 0.16rem;
 }
 
 .btn_out .btn {
-  width: 3rem;
-  height: .5rem;
-  border-radius: .04rem;
+  width: 3.4rem;
+  height: 0.5rem;
+  border-radius: 0.04rem;
   background-color: #ff8a00;
   text-align: center;
-  line-height: .5rem;
+  line-height: 0.5rem;
 }
 
 .btn_out .btn a {
-  font-size: .18rem;
+  font-size: 0.18rem;
   color: white;
 }

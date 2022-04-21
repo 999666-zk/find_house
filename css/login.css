@@ -1,0 +1,47 @@
+.two_tap {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+#long_line {
+  height: 4px;
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(255, 138, 0);
+}
+
+.base_login {
+  width: 50%;
+  line-height: 0.43rem;
+  border-bottom: 4px solid rgb(209, 209, 209);
+  text-align: center;
+}
+
+.logink {
+  width: 100%;
+  margin-top: 0.08rem;
+  position: absolute;
+}
+.ll {
+  margin-top: 0.42rem;
+}
+.big_out_login_box {
+  position: relative;
+}
+.btn_out {
+  margin-top: 1.4rem;
+}
+.under_text_ {
+  width: 100%;
+  line-height: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.text_inne {
+  margin: 0 0.2rem;
+}
+.text_inne:first-of-type {
+  color: rgb(255, 138, 0);
+}

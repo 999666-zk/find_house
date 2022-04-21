@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/regist.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <!-- header部分-->
+    <header>
+        <div class="box">
+            <div class="left_logo">
+                <img src="./image/index/logo.jpg" alt="">
+            </div>
+            <div class="right_img">
+                <div class="my"><img src="./image/index/my.jpg" alt=""></div>
+                <div class="app"><img src="./image/index/xiazai.jpg" alt=""></div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- 内容 -->
+    <div class="inner">
+        <div class="title under_li sp ll"><span>首页 > 我的 > 注册</span></div>
+        <div class="title two_tap">
+            <div class="base_login" id="base_l">普通登录</div>
+            <div class="base_login" id="yan_l">验证码快捷登录</div>
+            <div id="long_line"></div>
+        </div>
+    </div>
+    <div class="big_out_login_box">
+        <div class="login_kind1 logink">
+            <div class="phone under_li">
+                <div class="input_num"><input type="text" name="phone" placeholder="请输入手机号"></div>
+            </div>
+            <div class="yanzheng under_li sp">
+                <input type="text" placeholder="请输入密码">
+            </div>
+        </div>
+
+        <div class="login_kind2 logink" style="display: none;">
+            <div class="phone under_li">
+                <div class="input_num"><input type="text" name="phone" placeholder="请输入手机号"></div>
+                <button class="send_yan">发送验证码</button>
+            </div>
+            <div class="yanzheng under_li sp">
+                <input type="text" placeholder="请输入短信中的验证码">
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- 按钮 -->
+    <div class="btn_out">
+        <div class="btn"><a href="#" id="btn_msg">立即登录</a></div>
+    </div>
+
+    <div class="under_text_">
+        <div class="text_inne">立即注册</div>
+        <div class="text_inne">忘记密码</div>
+    </div>
+</body>
+<script src="./js/jquery-3.6.0.min.js"></script>
+<script src="./js/regist.js"></script>
+<script>
+    base_l.addEventListener('touchstart', function () {
+        // $('#base_l').addClass('checked_this');
+        $('#long_line').css({
+            'transform': 'translateX(0%)',
+            'transition': 'all 0.6s',
+        })
+
+        $('.login_kind1').fadeIn('slow').siblings('.logink').fadeOut();
+        $('#btn_msg').text('立即登录').fadeIn('slow');
+    })
+
+    yan_l.addEventListener('touchstart', function () {
+        $('#long_line').css({
+            'transform': 'translateX(100%)',
+            'transition': 'all 0.6s',
+        })
+        $('.login_kind2').fadeIn('slow').siblings('.logink').fadeOut();
+        $('#btn_msg').text('验证并登录').fadeIn('slow');
+    })
+</script>
+
+</html>
